@@ -102,6 +102,6 @@ while True:
     for x in numList:
         num = random.choice(numList2)
         numList2.remove(num)
-        window[x].update(num, set_size=(random.randint(2, 8), random.randint(2, 6)),)
+        window[x].update(num)
   
     window.reappear()
